@@ -15,4 +15,4 @@ networking:
   # In case these interfere with local networks (think other clusters),
   # we can change them.
   podSubnet: "10.244.0.0/16"
-  serviceSubnetL: "10.96.0.0/12"
+  serviceSubnet: "10.96.0.0/12"
