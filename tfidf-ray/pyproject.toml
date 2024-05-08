@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tfidf-ray"
+version = "0.1.0"
+description = ""
+authors = ["ltbringer <amresh.venugopal@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tfidf_ray"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-learn = "^1.4.2"
+ray = {extras = ["serve"], version = "^2.20.0"}
+starlette = "^0.37.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
